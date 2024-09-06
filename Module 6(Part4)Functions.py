@@ -1,7 +1,7 @@
 import random
 
 test_list = []
-for number in range(1,10):
+for number in range(1,25):
     test_list.append(random.randint (1,10))
 print(f'The list of the number is: ')
 for i in range (len(test_list)):
