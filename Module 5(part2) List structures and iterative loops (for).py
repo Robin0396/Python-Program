@@ -9,6 +9,6 @@ while True:
     except ValueError:
         print('Invalid input. Please enter a valid number: ')
 numbers.sort(reverse=True)
-top_five =numbers[:5]
+top_five =numbers[0:5]
 print('The five greatest numbers in descending order are: ')
 print(top_five)
