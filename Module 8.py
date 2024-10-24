@@ -1,4 +1,3 @@
-# Exercise 1
 import mysql.connector
 
 conn = mysql.connector.connect(

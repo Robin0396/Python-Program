@@ -21,7 +21,7 @@ def main():
         print("2. Fetch airport information")
         print("3. Quit")
 
-        choice = input('Enter  your choce (1/2/3): ')
+        choice = input('Enter  your choice (1/2/3): ')
         if choice == '1':
             add_airport()
         elif choice == '2':
